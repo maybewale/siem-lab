@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T12:05:16.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="y2GEbcYT5857vpwOWalW" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T12:18:48.787Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="PkrbWcFTvnggfi8mnslT" version="23.1.1" type="github">
   <diagram name="Page-1" id="cn0t22297gPH5VrivUQc">
-    <mxGraphModel dx="1136" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1938" dy="1053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,6 +56,14 @@
             <mxPoint x="-2" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=link;strokeColor=#FF33FF;" edge="1" parent="1" source="xSx-NrKWDLgr-4c5szI6-3" target="xSx-NrKWDLgr-4c5szI6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-31" value="8. send responsive action" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xSx-NrKWDLgr-4c5szI6-30">
+          <mxGeometry x="0.3602" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xSx-NrKWDLgr-4c5szI6-3" value="shuffle" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
           <mxGeometry x="375" y="150" width="63" height="39.69" as="geometry" />
         </mxCell>
@@ -75,15 +83,34 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;strokeColor=#FF33FF;" edge="1" parent="1" source="xSx-NrKWDLgr-4c5szI6-5" target="xSx-NrKWDLgr-4c5szI6-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-33" value="8. perform responsive action" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xSx-NrKWDLgr-4c5szI6-32">
+          <mxGeometry x="0.2408" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xSx-NrKWDLgr-4c5szI6-5" value="wazuh mgr&lt;br&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
           <mxGeometry x="70" y="370" width="63" height="39.69" as="geometry" />
         </mxCell>
-        <mxCell id="xSx-NrKWDLgr-4c5szI6-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;fillColor=#ffe6cc;strokeColor=#994C00;" edge="1" parent="1" source="xSx-NrKWDLgr-4c5szI6-6" target="xSx-NrKWDLgr-4c5szI6-10">
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;fillColor=#ffe6cc;strokeColor=#CC6600;" edge="1" parent="1" source="xSx-NrKWDLgr-4c5szI6-6" target="xSx-NrKWDLgr-4c5szI6-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xSx-NrKWDLgr-4c5szI6-26" value="7. send &amp;amp; recieve" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xSx-NrKWDLgr-4c5szI6-25">
           <mxGeometry x="0.2305" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;shape=link;strokeColor=#FF33FF;" edge="1" parent="1" source="xSx-NrKWDLgr-4c5szI6-6" target="xSx-NrKWDLgr-4c5szI6-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="320" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xSx-NrKWDLgr-4c5szI6-6" value="internet&lt;br&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
@@ -92,12 +119,55 @@
         <mxCell id="xSx-NrKWDLgr-4c5szI6-7" value="the hive&amp;nbsp;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
           <mxGeometry x="670" y="370" width="63" height="39.69" as="geometry" />
         </mxCell>
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;width=5.862068965517242;strokeColor=#FF33FF;" edge="1" parent="1" source="xSx-NrKWDLgr-4c5szI6-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-28" value="8. send response action&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xSx-NrKWDLgr-4c5szI6-27">
+          <mxGeometry x="-0.1017" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <object label="soc analyst" id="xSx-NrKWDLgr-4c5szI6-10">
           <mxCell style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
-            <mxGeometry x="668" y="570" width="65" height="50" as="geometry" />
+            <mxGeometry x="733" y="470" width="65" height="50" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="xSx-NrKWDLgr-4c5szI6-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xSx-NrKWDLgr-4c5szI6-3" target="xSx-NrKWDLgr-4c5szI6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-36" value="windows 10&lt;br&gt;send events&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="913" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xSx-NrKWDLgr-4c5szI6-37" target="xSx-NrKWDLgr-4c5szI6-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-37" value="wazuh mgr.&lt;br&gt;trigger alerts &amp;amp; perform response actions&amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="133" y="913" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-40" value="shuffle&lt;br&gt;recieve wazuh alerts &amp;amp; send responsive actions&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="913" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-42" value="OSINT&lt;br&gt;enrich IOCS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="753" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-43" value="the hive&lt;br&gt;create alerts in case management" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1050" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.617;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xSx-NrKWDLgr-4c5szI6-40" target="xSx-NrKWDLgr-4c5szI6-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.7;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xSx-NrKWDLgr-4c5szI6-40" target="xSx-NrKWDLgr-4c5szI6-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-47" value="email&lt;br&gt;send email and responsive actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="913" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xSx-NrKWDLgr-4c5szI6-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xSx-NrKWDLgr-4c5szI6-40" target="xSx-NrKWDLgr-4c5szI6-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
