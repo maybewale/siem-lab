@@ -21,5 +21,8 @@
 
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/1dbfc263-34bb-4e0d-adb8-857da97072eb)
 
+*made use of 3 machines for this lab. 2 Ubuntu cloud machine and 1 on-prem windows machine.*
+
+lets begin 😈
 
 
