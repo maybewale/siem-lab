@@ -16,10 +16,11 @@
 
 
 ## Steps
-![image](https://github.com/badboyzinni/soc-automation/assets/78131867/a6ab5a38-896a-44aa-b72c-8c95d0789256)
+
+*Ref 1: Network Diagram*
+![image](https://github.com/badboyzinni/soc-automation/assets/78131867/57d237dd-2681-4335-be4c-edd5be99a959)
 
 
-Every screenshot should have some text explaining what the screenshot is about.
 
 Example below.
 
