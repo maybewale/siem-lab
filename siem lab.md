@@ -1,4 +1,4 @@
-# SIEM LAB using WAZUH + THEHIVE
+# siem lab using WAZUH + THEHIVE
 
 ### Skills Gained
 
@@ -18,15 +18,8 @@
 ## Steps
 
 *Ref 1: Network Diagram*
-![image](https://github.com/badboyzinni/soc-automation/assets/78131867/57d237dd-2681-4335-be4c-edd5be99a959)
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/1dbfc263-34bb-4e0d-adb8-857da97072eb)
 
 
 
-Example below.
-
-*Ref 1: Network Diagram*z
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
-
-*Ref 1: Network Diagram*
