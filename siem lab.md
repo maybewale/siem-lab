@@ -26,3 +26,19 @@
 lets begin 😈
 
 
+**Wazuh cloud instance** 
+> no dependencies required
+> install wazuh and extract credentials 
+  
+> ![image](https://github.com/maybewale/siem-lab/assets/78131867/fe5d40f5-bcc9-4522-8b23-4425782632fc) 
+
+
+
+**TheHive cloud instance**
+
+> install java
+> 
+> install cassandra
+> >![image](https://github.com/maybewale/siem-lab/assets/78131867/3714c990-a435-437b-9615-e952991fe8e9)
+>
+> install elastic search
