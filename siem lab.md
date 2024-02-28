@@ -75,7 +75,12 @@ lets begin 😈
 > > > > ![image](https://github.com/maybewale/siem-lab/assets/78131867/31b643e8-cbc9-4f7e-9c93-5b95984854ec)
 > > > > ![image](https://github.com/maybewale/siem-lab/assets/78131867/f2cd775f-96dd-4f25-84ce-7c4e3ed46fa9)
 > > > >
-> > > 
+> > > stop cassandram delete old files and restart
+> > >  
+> > > > ![image](https://github.com/maybewale/siem-lab/assets/78131867/42ee75b4-e6ac-4721-a3fb-8439280422f4)
+> > > >
+> > > run same process for elasticsearch
+
 
 
 
