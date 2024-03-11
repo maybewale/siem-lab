@@ -71,15 +71,84 @@ edit listen, rpc and seed provider -this is the same as the ip address of your m
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/f2cd775f-96dd-4f25-84ce-7c4e3ed46fa9)
 
 stop cassandra
+
 `systemctl stop cassandra.service`
 
 delete old files and restart
+
 `rm -rf /var/lib/cassandra/*`
+
 `systemctl start cassandra.service`
   
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/42ee75b4-e6ac-4721-a3fb-8439280422f4)
 
 run same process for elasticsearch
+
+`nano /etc/elasticsearch/elasticsearch.yml`
+
+edit cluster name, rpc & seed provider 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/b9fb720d-8516-41a2-813b-21b3b0f3a5b1)
+
+start and emable elastic search 
+
+`systemctl start elasticsearch.service`
+`systemctl enable elasticsearch.service`
+
+up & running 
+![image](https://github.com/maybewale/siem-lab/assets/78131867/ee48323a-0136-4058-bc9d-33581ee262d1) 
+
+
+now, make sure thehive user and group has access to a file path
+
+`ls -la /opt/thp`
+
+we can see that root user has access here
+![image](https://github.com/maybewale/siem-lab/assets/78131867/0336b937-e70e-4686-8aba-11f7742f1191)
+
+
+now, lets make thehive owner 
+
+`chown -R thehive:thehive /opt/thp`
+
+check again, nice 
+![image](https://github.com/maybewale/siem-lab/assets/78131867/bd268e21-a6e5-4bb3-9972-a9f443d9d0bc)
+
+
+now lets configure thehive configuration file 
+
+`nano /etc/thehive/application.conf`
+
+edit hostmane, IP address & base url 
+
+start and enable thehive.service 
+![image](https://github.com/maybewale/siem-lab/assets/78131867/dff80aaa-dcfb-493b-8829-17a362c8831a)
+
+
+we login with default credntials and got hit with an error
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/d2416e25-15dd-434b-9ed2-688d43047170)
+
+apparently elasticsearch went down
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/63d76455-a149-4502-87a2-695e0c1dfbd5)
+
+lets create a custom jvl file
+
+`nano /etc/elasticsearch/jvm.options.d/jvm.options`
+
+now we paste a command that tells java to limit its memory 4gsb
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/8b2d2082-7db7-4ccf-a77e-df68b0a0018c)
+
+now lets restart elasticsearch
+
+now we have access to thehive console 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/6c8198d1-92ca-400d-8cb8-150fa458c3c5)
+
+
+
 
 
 
