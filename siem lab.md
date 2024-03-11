@@ -137,11 +137,11 @@ lets create a custom jvl file
 
 `nano /etc/elasticsearch/jvm.options.d/jvm.options`
 
-now we paste a command that tells java to limit its memory 4gsb
+paste a command that tells java to limit its memory 4gsb
 
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/8b2d2082-7db7-4ccf-a77e-df68b0a0018c)
 
-now lets restart elasticsearch
+restart elasticsearch
 
 now we have access to thehive console 
 
