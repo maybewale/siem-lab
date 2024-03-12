@@ -148,6 +148,20 @@ now we have access to thehive console
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/6c8198d1-92ca-400d-8cb8-150fa458c3c5)
 
 
+### Adding agents into Wazuh
+
+lets add agents into Wazuh, as we can see we have 0 agents 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/11991df2-94ae-4697-ac16-d585d8c6a23e)
+
+i'll be deploying a Windows agent...i'll input the IP add of the wazuh and then copy the command in green circle to my windows powershell 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/c87add15-29e3-48ce-acae-14c4885bb9c3)
+
+
+
+
+
 
 
 
