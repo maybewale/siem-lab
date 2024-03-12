@@ -158,7 +158,17 @@ i'll be deploying a Windows agent...i'll input the IP add of the wazuh and then 
 
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/c87add15-29e3-48ce-acae-14c4885bb9c3)
 
+wazuh is installed 
 
+![image](https://github.com/maybewale/siem-lab/assets/78131867/b96d5767-808e-4a40-988b-dba1f67d4ea3)
+
+start the service 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/a2bbbc2c-3e8c-428a-83ae-833dcb922114)
+
+back on the wazuh dashboard, we can see that our agent has been synced. ggs 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/254dc4b3-3eb1-4886-8588-c7956c330af0)
 
 
 
