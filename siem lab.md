@@ -200,8 +200,36 @@ but our wazuh did not log anything because `sysmon` didnt repoort it
 
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/9863fc99-9d45-4d8e-875f-54bd862405f7)
 
-lets fix that :(
+lets fix that :(  -  we're gonna modify the ossec.conf file  
+make a backup
 
+![image](https://github.com/maybewale/siem-lab/assets/78131867/51d7d953-c85d-4fe9-a7d9-f6ab8e084cfb)
 
+edit the log all section to yes 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/0de05f34-7929-4ebb-81d8-e9715118bf26)
+
+restart the wazuh-manager.service. what i just did will force wazuh to archive all the logs into this dir.
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/8cbaa656-ee1e-4073-b1d7-7b1bae63eaab)
+
+to start injestion, lets change the config of filebeat 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/e67fc12d-6bf8-4777-a353-8a7fa0642236)
+
+restart filebeat.service
+
+*back to wazuh* lets update our indexer to view these logs 
+
+goto stack management, index patterns, create index pattern
+create new index wazuh-archives-**
+save 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/16d493cf-47bc-4828-a489-d1b8b964c2e1)
+
+back to discover 
+select the new index
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/2f1990a9-b763-4a4d-8a0f-80f5c5de7065)
 
 
