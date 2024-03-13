@@ -170,9 +170,25 @@ back on the wazuh dashboard, we can see that our agent has been synced. ggs
 
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/254dc4b3-3eb1-4886-8588-c7956c330af0)
 
+### Lets generate telemetry from our agent and ingest into Wazuh
 
+lets find out wazuh configuration file on the Win10 agent 
+c:/Program Files (x86)/ossec-agent/ossec.conf
 
+![image](https://github.com/maybewale/siem-lab/assets/78131867/59014739-6d97-4f8b-9013-09220bce217a)
 
+i integrate previously installed sysmon and powershell into wazuh
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/32ff21fc-fc7a-4400-9482-67ab6bab6a01)
+
+then restart wazuh in the services tab. 
+`any time you make a change, always restart the service`
+
+*back into wazuh*
+
+we an see that logs are already being sent and ingested 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/0ace3c48-a7d4-4098-a9d8-9b71f3346896)
 
 
 
