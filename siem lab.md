@@ -232,4 +232,10 @@ select the new index
 
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/2f1990a9-b763-4a4d-8a0f-80f5c5de7065)
 
+no indexes stil. regerate the mimikatz executabele 
+
+now its injesting 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/dcf07525-e2a2-4007-8c4c-a3fc79fc12e6)
+
 
