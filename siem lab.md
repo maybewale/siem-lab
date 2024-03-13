@@ -182,6 +182,7 @@ i integrate previously installed sysmon and powershell into wazuh
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/32ff21fc-fc7a-4400-9482-67ab6bab6a01)
 
 then restart wazuh in the services tab. 
+
 `any time you make a change, always restart the service`
 
 *back into wazuh*
@@ -189,6 +190,17 @@ then restart wazuh in the services tab.
 we an see that logs are already being sent and ingested 
 
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/0ace3c48-a7d4-4098-a9d8-9b71f3346896)
+
+now lets download a know credential extractor mimikatz
+execute the .exe file 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/59cc9ea3-927a-4450-bb14-6ab6334b6f21)
+
+but our wazuh did not log anything because `sysmon` didnt repoort it
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/9863fc99-9d45-4d8e-875f-54bd862405f7)
+
+lets fix that :(
 
 
 
