@@ -238,4 +238,19 @@ now its injesting
 
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/dcf07525-e2a2-4007-8c4c-a3fc79fc12e6)
 
+so i had an hacker with me after this step and he executed a credential dump using mimikatz :(
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/4091ed7c-6ef6-46fd-9525-f05c51deddda)
+
+and Wazuh reported it under Sysmon/Operational
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/b5d04f9b-9084-4def-83ea-283756a711dd)
+
+
+
+now we craft alerts using specific keywords
+
+can be done via theh cli in `/var/ossec/ruleset/rules/`
+
+
 
