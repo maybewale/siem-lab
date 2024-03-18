@@ -246,11 +246,18 @@ and Wazuh reported it under Sysmon/Operational
 
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/b5d04f9b-9084-4def-83ea-283756a711dd)
 
+![image](https://github.com/maybewale/siem-lab/assets/78131867/bc97974b-4d41-4f94-96ee-e2a15f1f2337)
 
 
-now we craft alerts using specific keywords
+now we craft alerts using specific keywords like OriginalFileName
+so regardless of name change, itll still show up
 
-can be done via theh cli in `/var/ossec/ruleset/rules/`
+can be done via the cli in `/var/ossec/ruleset/rules/` but we can do it via the Wazuh dashboard
+
+Dashboard > MAnagement > Rules > Custom rules 
+
+
+
 
 
 
