@@ -256,8 +256,27 @@ can be done via the cli in `/var/ossec/ruleset/rules/` but we can do it via the 
 
 Dashboard > MAnagement > Rules > Custom rules 
 
+![image](https://github.com/maybewale/siem-lab/assets/78131867/e3b857b8-fe9e-4429-8120-9e78fae64367)
+
+save & restart
+
+now we can see that our alert is customized and the rule level is updated 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/003cfc25-5fa2-483e-a3a9-e30e86bd2057)
 
 
+## Connect Shuffle x Send alert to TheHive & Send to Email
+
+on `shuffler.io`  we're gonna create a new workflow 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/dd2cd7ea-b5a1-4ebb-8695-a90f5ab234c9)
+
+we add a WebHook or the workspace and copy the URI. this is so because we'll be adding it to out ossec.conf configuration file
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/0a665ad8-5319-4d26-a19c-e163862d40da)
+
+back in the Wazuh cli
+`nano /var/ossec/etc/ossec.conf` we'll add an integration tag
 
 
 
