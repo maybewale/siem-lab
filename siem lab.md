@@ -51,6 +51,17 @@ install the hive
 ### Windows VM
 
 setup sysmon and configure
+
+
+get the sysmon config file from 
+`https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml` 
+
+what you need is the sysmonconfig.xml file 
+
+put it all in the same folder and use the command `./Sysmonx64.exe -i sysmon.xml`
+
+go to services and confirm if sysmon is running 
+
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/0022b3bb-abaf-4be7-ab8d-60cf9eee1070)
 
 ## -
