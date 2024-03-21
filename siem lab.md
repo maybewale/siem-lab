@@ -306,4 +306,9 @@ now the logs are showing up on the workflow
 
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/d190eb67-9376-447f-b748-92036197b9a4)
 
+nice 
+
+this is what we'll be replicating 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/1d4711dc-be04-4a50-a216-d4bfdae7d2db)
 
