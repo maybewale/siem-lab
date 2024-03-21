@@ -287,7 +287,23 @@ we add a WebHook or the workspace and copy the URI. this is so because we'll be 
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/0a665ad8-5319-4d26-a19c-e163862d40da)
 
 back in the Wazuh cli
-`nano /var/ossec/etc/ossec.conf` we'll add an integration tag
+`nano /var/ossec/etc/ossec.conf` we'll add an integration tag that relects our rule id 
 
+![image](https://github.com/maybewale/siem-lab/assets/78131867/97b170cd-491d-42e9-8567-eb06bfe92421)
+
+be sure to edit the conf file properly or it wont restart
+restart the manager 
+
+## `5 troubleshooting sessions later`
+
+now, regenerate the mimikatz command on the windows client machine 
+
+return to our workspace on `shuffler.io`   
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/53ee88a9-c465-43ed-afe3-a70f575b15f4)
+
+now the logs are showing up on the workflow
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/d190eb67-9376-447f-b748-92036197b9a4)
 
 
