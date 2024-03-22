@@ -32,12 +32,14 @@ lets begin 😈
 no dependencies required
 install wazuh and extract credentials 
 
-refer to this repo   `Wazuh-Install-Instructions`
+refer to this repo   `[Wazuh-Install-Instructions](https://github.com/MyDFIR/SOC-Automation-Project/commit/d0bc24d759372079d311667df2bef290cee9431c)`
   
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/fe5d40f5-bcc9-4522-8b23-4425782632fc) 
 
 
 ### TheHive cloud instance
+
+refer to this   `https://github.com/MyDFIR/SOC-Automation-Project/commit/41a997fb71c88b9facd9c62525d2b0203a922cc6`
 
 install java
 install cassandra
