@@ -31,6 +31,8 @@ lets begin 😈
 
 no dependencies required
 install wazuh and extract credentials 
+
+refer to this repo   `Wazuh-Install-Instructions`
   
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/fe5d40f5-bcc9-4522-8b23-4425782632fc) 
 
