@@ -314,5 +314,77 @@ this is what we'll be replicating
 
 now lets automte the alert by parsing out the hash value
 
+first copy out your hash value from the exe argument 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/600ffe42-ae76-4c83-939d-01e8940a46c5)
+
+edit the Change Me workflow details 
+
+change capture group and input data to view hash function
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/e3f70449-f0c2-4925-b216-183ac71438a7)
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/86e0f240-148d-4dd9-a88e-c2362346b340)
+
+now use GPT to create the regex prompt 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/c5cc1878-251a-4c2a-acdd-18e5f1ada402)
+
+you should get this    `SHA256=([A-Fa-f0-9]{64})`
+
+save workflow and refresh
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/21e79a8a-f8ac-49a3-aea9-d72735ee35e5)
+
+now the hash data has been parsed out 
+
+rename the change me workflow to SHA256_REGEX
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/9e998d73-bdb5-4e47-be44-3a3a51ab3d9b)
 
 
+##lets send this to virustotal
+
+create an account on  `virustotal.com`
+get your api key
+
+in   `shuffler.io`   search, activate an add the virustotal instance
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/03a1b2cc-58d7-4e6c-87d1-1b2337e65533)
+
+input yor api key, ensure the find actions is on   `get a hash report`  and the Id is facing `$sha256_regex.group_0.#`
+
+confirm the details, save and refresh the workflow
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/57770871-081a-4dd3-9024-13e758b446cf)
+
+theres an error :( .. not exactly what we want to see 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/cd7fd5bd-e077-424e-9eed-8b47563d38cb)
+
+on  `shuffler.io`   go to apps, find virus total, open in a new tab then fork the app to create another instance for your workflow
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/d60aaf8a-0693-46ec-8d87-cd9626278ad6)
+![image](https://github.com/maybewale/siem-lab/assets/78131867/6fbaf510-e0ff-4f45-b6e1-864e16ed44b9)
+
+go to the get a hash report function 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/78f1079d-68e8-474c-b42c-7c91cf4c273b)
+
+ensure its pointed to that directory 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/cb77426d-19a1-4407-8a5f-b7f240d7e07e)
+
+back to the workflow page, 
+
+delete the old virustotal instance, add your forked instance 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/86847bd8-f342-4eab-8edc-f3239a95de05)
+
+authenticate and configure, save and re run the process
+
+now this is what we need to see 
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/639a1833-7f3f-4ff9-9b87-00b74588938f)
+
+##lets send these to the hive 
