@@ -406,3 +406,9 @@ then under   `nanoCorte /etc/thehive/application.conf`   scroll to the bottom, a
 
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/f44b21a1-79f9-4789-905f-9ca6b391cfbe)
 
+## lets send the virustotal alert to thehive
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/04f91679-6304-4d1b-a428-c347611268d1)
+
+search for TheHive 5 from theapps tab and add it t your workflow 
+
