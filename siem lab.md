@@ -392,3 +392,17 @@ now this is what we need to see
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/639a1833-7f3f-4ff9-9b87-00b74588938f)
 
 ##lets send these to the hive 
+
+so, for some weird reason the hibve wouldnt start
+other services were running { cassandra % elasticsearch }
+
+i was getting errors opening the webpage
+
+did a little troubleshooting.
+
+`nano /etc/thehive/application.conf`   make sure the cluster name reflects the cluster name added in  `nano /etc/cassandra/cassandra.yaml`
+
+then under   `nanoCorte /etc/thehive/application.conf`   scroll to the bottom, and comment and uncomment cortex and misp.
+
+![image](https://github.com/maybewale/siem-lab/assets/78131867/f44b21a1-79f9-4789-905f-9ca6b391cfbe)
+
