@@ -1,4 +1,4 @@
-# siem lab using WAZUH + THEHIVE
+# SIEM Lab using WAZUH + THEHIVE
 
 ### Skills Gained
 
@@ -21,7 +21,7 @@
 
 ![image](https://github.com/maybewale/siem-lab/assets/78131867/1dbfc263-34bb-4e0d-adb8-857da97072eb)
 
-*made use of 3 machines for this lab. 2 Ubuntu cloud machine and 1 on-prem windows machine.*
+*made use of 3 machines for this lab. 2 Ubuntu cloud machines and 1 on-prem windows vm machine.*
 
 ~visit this repo for more indepth steps - https://github.com/MyDFIR/SOC-Automation-Project/blob/main/mac-M1-M2-M3-Instructions
 
